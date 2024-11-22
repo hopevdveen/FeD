@@ -1,8 +1,10 @@
 /**************/
 /* CSS REMEDY */
 /**************/
-*, *::after, *::before {
-  box-sizing:border-box;  
+*,
+*::after,
+*::before {
+	box-sizing: border-box;
 }
 
 
@@ -15,8 +17,8 @@
 /*********************/
 :root {
 	/* startje */
-	--color-text:#111;
-	--color-background:#eee;
+	--color-text: #111;
+	--color-background: #eee;
 }
 
 
@@ -28,4 +30,157 @@
 /****************/
 
 /* jouw code */
+@font-face {
+	font-family: 'Dunkin';
+	src: url('fonts/dunkin/dunkin_bold.otf');
+}
 
+body {
+	margin: 0;
+	padding: 0;
+	margin-top: 6.5em;
+	font-family: 'Dunkin', sans-serif;
+}
+
+h1 {
+	background-color: #F36E21;
+	color: white;
+
+	text-align: center;
+	font-size: smaller;
+
+	padding: 1em;
+	margin: 0;
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+}
+
+h5{
+	display: none; 	
+}
+
+
+nav {
+	display: flex;
+	justify-content: center;
+	justify-content: space-between;
+
+	margin-top: 2.6em;
+	padding-bottom: 1em;
+
+	border-bottom-style: solid;
+	border-width: 1px;
+	border-color: #F1F0F0;
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	background-color: white;
+}
+
+nav img:first-of-type {
+	max-width: 3em;
+	max-height: 2em;
+
+	padding: .5em 1em .5em 1em;
+	border-radius: 1.5em;
+	margin-top: 1em;
+	margin-left: 1em;
+
+	background-color: #F1F0F0;
+}
+
+nav img:nth-of-type(2) {
+	max-width: 8em;
+	max-height: 1.8em;
+
+	margin-top: 1em;
+}
+
+nav img:nth-of-type(3) {
+	padding: .5em 1em .5em 1em;
+	margin-right: 1em;
+	margin-top: 1em;
+
+	background-color: #F1F0F0;
+
+	border-radius: 1.5em;
+
+	max-width: 3em;
+	max-height: 2em;
+}
+
+nav button {
+	border-radius: 20%;
+	border: none;
+
+	padding: 3em;
+
+	justify-content: flex-end;
+}
+
+nav ul {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	position: fixed;
+
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+
+	translate: -100% -100%;
+}
+
+nav li {
+	list-style: none;
+	color: #4F3010;
+}
+
+main img:first-of-type {
+	width: 21.5em;
+
+	margin-top: 2em;
+	margin-left: 1em;
+	margin-right: 1em;
+}
+
+main section:first-of-type{
+	background-color:#ED1A8E ;
+	border-radius: 2em;
+	color: white;
+
+	padding: 1em;
+}
+
+main section:first-of-type h3{
+	text-align: center;
+	font-size: 200%;
+	margin: 0;
+}
+
+main section:last-of-type{
+	background-color: white;
+}
+
+main section:last-of-type button{
+	border: none;
+	border-radius: 2em;
+
+	background-color: #F36E21;
+	color: white;
+
+	padding: 1.5em 10em 1.5em 10em;
+	margin-bottom: 1em;
+	margin-left: 1em;
+	margin-right: 1em;
+
+	position: fixed;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}

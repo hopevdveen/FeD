@@ -57,6 +57,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen:
+  1. De letters voor bijvoorbeeld de beschrijvingen van de donuts zijn te dik/slecht leesbaar als je slecht zicht hebt.
+  2. Kleurcontrast tussen oranje en roze is niet heel duidelijk, maar wel leesbaar omdat ze het niet gebruiken over elkaar heen.
+  3. Bestellen lukt niet met alleen je toetsenbord.
+  4. Als je door het menu heen wil met je tab toets gaat dat erg lastig en niet op een logische volgorde.
 
 </details>
 
@@ -68,13 +72,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
 
   ### de hele pagina: 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
+  <img src="readme-images/breakdown_homepagina-01.png" width="375px" alt="breakdown van de hele pagina">
 
   ### dynamisch deel (bijv menu): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
-
-  ### wellicht nog een dynamisch deel (bijv filter): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
+  <img src="readme-images/breakdown_hamburgermenu" width="375px" alt="breakdown van een dynamisch deel">
 
 </details>
 
@@ -88,7 +89,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 1<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  Ik vond de oefeningen die we hebben gedaan heel fijn om weer even in te komen. Ik had wat meer moeite met de Javascript dan de HTML en de CSS, maar ben er uiteindelijk wel uitgekomen. Ik heb er denk ik toch voor gekozen om responsive te gaan doen i.p.v Surface Plane. Ik heb hiervoor gekozen omdat ik denk dat ik dit later meer zal gebruiken en ik dit graag beter wil leren.
+
+  Vragen: 
+  Ik krijg mijn font niet ingeladen.
 
 
   ### Agenda voor meeting
