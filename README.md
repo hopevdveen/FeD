@@ -181,8 +181,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 2<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-
+  Ik ben deze week begonnen aan de css, maar omdat ik het best complex vind ben ik nog niet super ver gekomen. Ik ga hier dit weekend en komende week meer tijd aan besteden.
 
   ### Agenda voor meeting
   samen met je groepje opstellen
