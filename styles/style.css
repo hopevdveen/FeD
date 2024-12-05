@@ -33,14 +33,14 @@
 
 @font-face {
 	font-family: "Dunkin Bold";
-	src: url("/fonts/dunkin_bold.otf") format("opentype");
+	src: url("../fonts/dunkin_bold.otf") format("opentype");
 	font-weight: normal;
 	font-style: normal;
 }
 
 @font-face {
 	font-family: "Dunkin Regular";
-	src: url("/fonts/dunkin_regular.otf") format("opentype");
+	src: url("../fonts/dunkin_regular.otf") format("opentype");
 	font-weight: normal;
 	font-style: normal;
 }
@@ -599,4 +599,20 @@ main section:last-of-type button {
 	margin-left: 1em;
 	margin-right: 1em;
 	margin-bottom: 1em;
+}
+
+footer{
+	background-color: #F36E21;
+}
+
+footer h6{
+	display: none;
+}
+
+footer img:first-of-type{
+	background-color: white;
+
+	border-radius: 50%;
+
+	position: absolute;
 }
