@@ -940,10 +940,34 @@
 	border-radius: .3em;
 
 	margin: 2em 1em 2em 1em;
+
+
 }
 
 .jobs section:nth-of-type(6) h4{
 	color: #EE4C25;
 
-	font
+	font-family: 'Dunkin Bold';
+	
+	margin-left: 1em;
+}
+
+.jobs section:nth-of-type(6) img:first-of-type{
+	width: 1em;
+	height: 1.3em;
+}
+
+.jobs section:nth-of-type(6) div{
+	display: flex;
+
+	margin-left: 1em;
+	margin-bottom: 1em;
+}
+
+.jobs section:nth-of-type(6) div p{
+	margin: 0;
+	padding: 0 1em 0 1em;
+
+	font-family: 'Dunkin Regular';
+	font-size: 90%;
 }
