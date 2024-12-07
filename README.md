@@ -16,13 +16,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Auteur:
-  Hope van der Veen (vervangen door jouw naam)
+  Hope van der Veen
 
   #### Je startniveau:
-  Rood (kies uit zwart, rood óf blauw)
+  Rood
 
   #### Je focus:
-  Surface Plane (kies uit responsive óf surface plane)
+  Surface Plane
  
 </details>
 
@@ -149,17 +149,14 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Stand van zaken
   Ik vond de oefeningen die we hebben gedaan heel fijn om weer even in te komen. Ik had wat meer moeite met de Javascript dan de HTML en de CSS, maar ben er uiteindelijk wel uitgekomen. Ik heb er denk ik toch voor gekozen om responsive te gaan doen i.p.v Surface Plane. Ik heb hiervoor gekozen omdat ik denk dat ik dit later meer zal gebruiken en ik dit graag beter wil leren.
 
-  Vragen: 
-  Ik krijg mijn font niet ingeladen.
-
 
   ### Agenda voor meeting
   samen met je groepje opstellen
 
   | student 1      | student 2          | student 3    | student 4        |
   | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
+  |Hoe moet ik mijn|
+  | font inladen?  | dit als er tijd is | nog een punt | dit wil ik zeker |
   | ...            | ...                | ...          | ...              |
 
 
@@ -197,10 +194,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-- ...
+  - Bij het lettertype de wof weg of de /, want hij word niet ingeladen in github.
+  - Gebruik custom properties
 
 </details>
 
@@ -216,6 +211,69 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
 
+  ### Content
+  - Use plain language and avoid figures of speech, idioms, and complicated metaphors. (Ik heb makkelijke tekst gebruikt en geen metaforen.)
+  - Make sure that button, a (links) and label (in forms) content is unique and discriptive. (Ik heb de links discriptief gemaakt.)
+
+  ### Global Code
+  - Validate your HTML. (Ik heb geen errors in mijn HTML.)
+  - Use a lang attribute on the html element. (Dit heb ik gedaan.)
+  - Provide a unique title for each page. (Dit heb ik gedaan.)
+  - Ensure that viewport zoom is not disabled. (Dit kan.)
+
+  ### Keyboard
+  - Make sure there is a visible focus style for interactive elements that are navigated (tab and shift + tab) to via keyboard input. (Er is een  duidelijke focusstate.)
+  - Check to see that keyboard focus order matches the visual layout. (Het matcht de layout als ik niks aan mijn keyboard doe, maar als ik tab ga gebruiken slaat hij dingen over.)
+
+  ### Mobile and touch
+  - Check that the site can be rotated to any orientation. (Dit kan.)
+  - Remove horizontal scrolling. (Heb ik gedaan.)
+  - Ensure that button and link icons can be activated with ease (size and position). (Dit heb ik gedaan.)
+  - Ensure sufficient space between interactive items in order to provide a scroll area. (Dit heb ik gedaan.)
+
+  ### Headings
+  - Use heading elements to introduce content. (Dit doen ik.)
+  - Use only one h1 element per page or view. (Dit heb ik.)
+  - Heading elements should be written in a logical sequence. (Ze staan bij mij in een logische volgorde.)
+  - Don't skip heading levels. (Dit doe ik niet.)
+
+  ### Lists
+  - Use list elements (ol,ul and dl elements) for list content. (Ik heb ul's gebruikt.)
+
+  ### Images
+  - Make sure that all img elements have an alt attribute. (Dit heb ik gedaan.)
+  - Make sure that decorative images use null alt (empty) attribute values. (Decoratieve foto's heb ik geen alt text gegeven.)
+  - Provide a text alternative for complex images such as charts, graphs and maps. (Dit heb ik gedaan.)
+  - For images containing text, make sure the alt description includes the image's text. (Dit heb ik gedaan.)
+
+  ### Media (Video and Audio)
+  Niet van toepassing
+
+  ### Controls
+  - Use the a element for links. (Dit heb ik.)
+  - Ensure that links are recognizable as links. (Dit heb ik.)
+  - Ensure that controls have :focus states. (Dit heb ik.)
+  - Use the button element for buttons. (Dit heb ik.)
+  - Provide a skip link and make sure that it is visible when focused. (Ik heb geen skiplink gemaakt.)
+  - Identify links that open in a new tab or window. (Je ziet niet aan de links of ze openen in een nieuw tabblad.)
+
+  ### Appearance
+  - Check if dark and light mode are supported. (Dit heb ik.)
+  - Check is high contrast mode is supported. (Dit heb ik.)
+  - Increase text size to 200%. (Dit kan.)
+  - Make sure color isn't the only way information is conveyed. (Ik gebruik ook letterdikte en grootte.)
+
+  ### Animation
+  - Ensure animations are subtle and do not flash to much. (Dit heb ik.)
+  - Provide a mechanism to pause background video. (Dit heb ik niet.)
+  - Make sure all animation obeys the prefers-reduced-motion media query. (Ik kan dit niet vinden op mijn laptop.)
+
+  ### Color contrast
+  - Check the contrast for all normal-sized text. (Ik heb bij de letters die ik te klein vond ervoor gezorgt dat ze nu groter waren.)
+  - Check the contrast for all large-sized text. (Hier is het contrast goed.)
+  - Check the contrast for all icons. (De iconen hebben een goed contrast.)
+  - Check text that overlaps images or video. (Hebben ze wel, maar het contrast is wel goed.)
+  - Check custom ::selection colors. (Die gebruik ik.)
 </details>
 
 
@@ -228,7 +286,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 3<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  Met de css is alles gelukt alleen weet ik niet zo goed hoe ik met de animaties moet beginnen.
 
 
   ### Agenda voor meeting
@@ -236,18 +294,19 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   | student 1      | student 2          | student 3    | student 4        |
   | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  | Hoe hebben ze 
+  | de intro gedaan| dit als er tijd is | nog een punt | dit wil ik zeker |
+  | Hoe moet ik de 
+  | animatie van de 
+  | sections doen? | ...                | ...          | ...              |
 
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - Css ziet er goed uit
+  - Ga nu beginnen aan de animaties
+  - Doe de custom properties
 
 </details>
 
@@ -261,19 +320,22 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor eindgesprek</summary>
 
   ### Je uitkomst - karakteristiek screenshots:
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="uitomst opdracht 1">
-
+  <img src="readme-images/Eindopdracht FED.png" width="375px" alt="Homepagina dunkin">
+  <img src="readme-images/microinteractie.png" width="375px" alt="Microinteractie"> 
+  <img src="readme-images/jobs pagina.png" width="375px" alt="Jobs pagina"> 
 
   ### Dit ging goed/Heb ik geleerd: 
-  Korte omschrijving met plaatjes
+  Ik vond dat de CSS op deze website erg goed gelukt was en ben ook erg trots op hoe erg het op de echte site lijkt. 
+  Wat ik heb geleerd is de custom properties gebruiken, light-dark mode maken en hoe ik moet animeren met keyframes.
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
+  <img src="readme-images/custom_properties.png" width="375px" alt="top">
+  <img src="readme-images/keyframes.png" width="375px" alt="top">
 
 
   ### Dit was lastig/Is niet gelukt:
-  Korte omschrijving met plaatjes
+  Ik vond de carousel het lastigst. Ik heb hier ook het meeste hulp bij gezocht. Uiteindelijk is het wel gelukt.
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
+  <img src="readme-images/carousel.png" width="375px" alt="bummer">
 </details>
 
 
@@ -289,8 +351,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Nb. ChatGpT en andere AI horen er ook bij.
   Nb. Vermeld de bronnen ook in je code.
 
-  1. bron 1
-  2. bron 2
-  3. ...
+  1. https://developer.mozilla.org/en-US/ (Voor animeren en bepaalde css properties)
+  2. https://chatgpt.com/ (Geraadpleegd voor de carousel en de kennis toegepast in mijn code.)
+  3. https://www.cssportal.com/css-clip-path-generator/#google_vignette (Om een custom clippath te maken)
 
 </details>
