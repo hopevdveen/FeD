@@ -5,29 +5,28 @@ var vorigeKnop = document.querySelector(".btnPrevious")
 var volgendeKnop = document.querySelector(".btnNext")
 const items = document.querySelector('.carousel-items');
 const totalItems = document.querySelectorAll('.carousel-items > section').length;
-let currentIndex = 0; // Start bij de eerste slide
+let currentIndex = 0;
 
 menuButton.addEventListener("click", openMenu)
 
-
-function openMenu(){
+function openMenu() {
     hetMenu.classList.toggle("toonMenu");
     deNav.classList.add("veranderKleur");
     menuButton.src = "images/cross.png";
 }
 
 document.getElementById('btnPrevious').addEventListener('click', () => {
-    currentIndex = (currentIndex - 1 + totalItems) % totalItems; // Ga naar de vorige slide
+    currentIndex = (currentIndex - 1 + totalItems) % totalItems; 
     updateCarousel();
 });
 
 document.getElementById('btnNext').addEventListener('click', () => {
-    currentIndex = (currentIndex + 1) % totalItems; // Ga naar de volgende slide
+    currentIndex = (currentIndex + 1) % totalItems;
     updateCarousel();
 });
 
 function updateCarousel() {
-    const offset = -currentIndex * 33; // Bereken de positie
-    items.style.transform = `translateX(${offset}%)`; // Pas de verschuiving toe
+    const offset = -currentIndex * 33;
+    items.style.transform = `translateX(${offset}%)`; 
 }
 
